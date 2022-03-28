@@ -1,0 +1,21 @@
+
+*{margin:0; padding:0;}
+
+.announcmentbar{
+  background-color:#000;
+  color: #fff;
+  text-align:center;
+  padding: 10px 0;
+}
+
+.navigation ul{display: flex;justify-content: center; list-style-type: none;    margin: 0;}
+.navigation ul li {margin-right: 20px;}
+.navigation ul li:last-child{margin-right: 0;}
+.navigation ul li a{color: black; text-decoration: none;}
+.navigation ul li a.active, .navigation ul li a:hover{color: lightcoral;}
+.icons{display: flex;justify-content: right;}
+.icons > div{margin: 0 10px; }
+.icons > div a{color: black;}
+.icons > div:hover a{ color: lightcoral;}
+.icons > div:last-child{margin-right: 0;}
+.carousel{margin-bottom: 20px;}
