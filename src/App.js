@@ -9,7 +9,8 @@ import Shop from './Shop';
 import Blog from './Blog';
 import Contact from './Contact';
 import Error from './Error';
-
+import Admin from './Admin';
+import Login from './admin/Login';
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
     <Route path='/blog' element={<Blog/>}/>
     <Route path='/blog:1' element={<Blog/>}/>
     <Route exact path='/contact-us' element={<Contact/>}/>
+    <Route exact path='/admin' element={<Admin/>}/>
+    <Route exact path='/account' element={<Login/>}/>
     <Route path='*' element={<Error/>} />
     </Routes>
   </>

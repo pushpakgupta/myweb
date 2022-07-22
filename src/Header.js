@@ -20,11 +20,11 @@ const Header = () =>{
             </div>
             <div className='col navigation'>
                <ul>
-                 <li><NavLink activeClassName="active_nav" to='/'>Home</NavLink></li>
-                 <li><NavLink activeClassName="active_nav" to='/about-us'>About Us</NavLink></li>
-                 <li><NavLink activeClassName="active_nav" to='/shop'>Shop</NavLink></li>
-                 <li><NavLink activeClassName="active_nav" to='/blog'>Blog</NavLink></li>
-                 <li><NavLink activeClassName="active_nav" to='/contact-us'>Contact Us</NavLink></li>
+                 <li><NavLink activeclassname="active_nav" to='/'>Home page</NavLink></li>
+                 <li><NavLink activeclassname="active_nav" to='/about-us'>About Us</NavLink></li>
+                 <li><NavLink activeclassname="active_nav" to='/shop'>Shop</NavLink></li>
+                 <li><NavLink activeclassname="active_nav" to='/blog'>Blog</NavLink></li>
+                 <li><NavLink activeclassname="active_nav" to='/contact-us'>Contact Us</NavLink></li>
                </ul>
             </div>
             <div className='col icon-section'>

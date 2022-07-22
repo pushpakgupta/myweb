@@ -6,7 +6,7 @@ const Blog = () => {
    
         <div className="container">
         <div className="row align-items-center my-4">
-            <div className='col-12 '><h1>Shop us</h1></div>
+            <div className='col-12 '><h1>Blog</h1></div>
             <div className='col-12'>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis sapien eget dapibus consectetur. Mauris ornare risus dolor. Vestibulum nec lacinia ligula. Nullam sed ligula scelerisque, varius sapien ac, ornare massa. Vivamus commodo risus libero. Suspendisse potenti. Mauris neque lacus, fermentum quis dapibus quis, luctus eget leo. Nam non arcu non dui ullamcorper condimentum ut id velit. Praesent blandit metus mi, ut vehicula leo consectetur eu. Etiam facilisis diam eu lorem tincidunt, id accumsan sem ultricies. Vivamus hendrerit rutrum dui accumsan eleifend.
     
